@@ -67,6 +67,7 @@ class MovieItem extends Component {
 
   handlePlayerState = () => {
     const { playing } = this.state;
+
     this.setState(
       {
         playing: !playing,

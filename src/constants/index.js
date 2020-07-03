@@ -19,8 +19,8 @@ export const youTubeConfig = {
   playerVars: {
     enablejsapi: 1,
     showinfo: 0,
-    controls: 1,
-    autoplay: 1,
+    controls: 0,
+    autoplay: 0,
     rel: 0,
   },
 };

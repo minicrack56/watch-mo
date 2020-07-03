@@ -6,12 +6,3 @@ export const logoSpring = {
     transform: "translate3d(0,0px,0)",
   },
 };
-
-export const playerSpring = {
-  from: {
-    opacity: 0,
-  },
-  to: {
-    opacity: 1,
-  },
-};
