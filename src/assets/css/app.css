@@ -248,7 +248,8 @@ nav a:hover {
 
 .yt-player {
   z-index: 2;
-  transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  will-change: all;
+  /* transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1); */
 }
 
 .player-bd {
@@ -259,7 +260,7 @@ nav a:hover {
   opacity: 0;
   pointer-events: none;
   will-change: opacity, background;
-  transition: opacity 0.3s, background 0.2s;
+  transition: opacity 0.5s, background 0.2s;
 }
 .is-playing .player-bd {
   pointer-events: all;
